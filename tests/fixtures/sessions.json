@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "end_timestamp": 1700000000,
+      "start_timestamp": 1699990000,
+      "consumption": 25.3,
+      "start_reason": "Remote",
+      "stop_reason": "Complete",
+      "operator_type": 0
+    }
+  ]
+}

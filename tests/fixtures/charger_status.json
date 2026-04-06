@@ -1,0 +1,20 @@
+{
+  "protocol_version": "1.0",
+  "charging_state": 2,
+  "voltage_list": [230, 231, 229],
+  "current_list": [16.0, 15.8, 16.1],
+  "energy": 12.5,
+  "lifetime_energy": 1234.56,
+  "is_lock": false,
+  "network_status": 1,
+  "power": 11.04,
+  "is_disable": false,
+  "cable_current": 32,
+  "circuit_fuse": 32,
+  "current_limit": 16,
+  "is_always_lock": 0,
+  "plug_and_charging": 0,
+  "force_single": 0,
+  "brightness": 80,
+  "uk_reg": false
+}

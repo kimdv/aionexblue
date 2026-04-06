@@ -1,0 +1,31 @@
+{
+  "serial_number": "SN-001",
+  "place_data": {
+    "id": "place-1",
+    "address": "123 Test Street",
+    "category": "Private",
+    "operator_type": 0,
+    "currency": "DKK",
+    "country": "DK",
+    "load_balance_switch": 1,
+    "load_balance_local_cloud": 2,
+    "tz_id": "Europe/Copenhagen",
+    "uk_reg": false,
+    "grid_type": 2,
+    "main_fuse": 25,
+    "main_fuse_limit": 95,
+    "fallback_current": 6
+  },
+  "circuit_data": {
+    "place_id": "place-1",
+    "circuit_id": "circuit-1",
+    "name": "Main Circuit",
+    "fuse": 32,
+    "chargers": ["SN-001", "SN-002"]
+  },
+  "online": true,
+  "product_name": "NexBlue Edge",
+  "device_operator_type": 0,
+  "pin_code": "1234",
+  "role": 0
+}

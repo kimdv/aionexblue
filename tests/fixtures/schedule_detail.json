@@ -1,0 +1,15 @@
+{
+  "schedule_mode": 2,
+  "charge_schedules": [
+    {
+      "start_hour": 22,
+      "start_minute": 0,
+      "stop_hour": 6,
+      "stop_minute": 0,
+      "repeat_days": [1, 2, 3, 4, 5],
+      "enabled": true
+    }
+  ],
+  "offpeak_schedules": [],
+  "eco_schedules": []
+}

@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "year": 2025,
+      "month": 9,
+      "day": 24,
+      "hour": 10,
+      "consumption": 5.2,
+      "date": "2025-09-24T10:00:00+00:00"
+    }
+  ],
+  "granularity": "hourly",
+  "total": 5.2
+}
