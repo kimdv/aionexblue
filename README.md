@@ -2,6 +2,8 @@
 
 Async Python client for the NexBlue EV charger cloud API.
 
+Supports Python 3.12 through 3.14.
+
 ## Installation
 
 ```bash
