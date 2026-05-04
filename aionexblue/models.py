@@ -253,7 +253,13 @@ class ChargerDetail:
 
 @dataclass(frozen=True)
 class ChargerConfigStatus:
-    """Live charger status and configuration from the cmd/status endpoint."""
+    """Live charger status and configuration from the cmd/status endpoint.
+
+    Field names match the live NexBlue API verbatim. The OpenAPI schema
+    uses slightly different names for some of these (cable_current,
+    is_always_lock, plug_and_charging, force_single); the live API
+    consistently returns the names used here, so we follow the wire format.
+    """
 
     protocol_version: str
     charging_state: ChargingStateEnum
@@ -265,12 +271,12 @@ class ChargerConfigStatus:
     network_status: NetworkStatusEnum
     power: float
     is_disable: bool
-    cable_current: int
+    cable_current_limit: int
     circuit_fuse: int
     current_limit: int
-    is_always_lock: CableLockModeEnum
-    plug_and_charging: AccessLevelEnum
-    force_single: PhaseChargingEnum
+    cable_lock_mode: CableLockModeEnum
+    access_level: AccessLevelEnum
+    phase_charging: PhaseChargingEnum
     brightness: int
     uk_reg: bool | None = None
 

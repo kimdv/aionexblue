@@ -160,12 +160,12 @@ class TestGetChargerStatus:
         assert status.is_lock is False
         assert status.network_status == NetworkStatusEnum.WIFI
         assert status.is_disable is False
-        assert status.cable_current == 32
+        assert status.cable_current_limit == 32
         assert status.circuit_fuse == 32
         assert status.current_limit == 16
-        assert status.is_always_lock == CableLockModeEnum.LOCK_WHILE_CHARGING
-        assert status.plug_and_charging == AccessLevelEnum.AUTHORIZED_USERS_ONLY
-        assert status.force_single == PhaseChargingEnum.THREE_PHASE
+        assert status.cable_lock_mode == CableLockModeEnum.LOCK_WHILE_CHARGING
+        assert status.access_level == AccessLevelEnum.AUTHORIZED_USERS_ONLY
+        assert status.phase_charging == PhaseChargingEnum.THREE_PHASE
         assert status.brightness == 80
         assert status.uk_reg is False
 

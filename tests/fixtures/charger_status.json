@@ -1,5 +1,5 @@
 {
-  "protocol_version": "1.0",
+  "protocol_version": "00.14.00",
   "charging_state": 2,
   "voltage_list": [230, 231, 229],
   "current_list": [16.0, 15.8, 16.1],
@@ -9,12 +9,12 @@
   "network_status": 1,
   "power": 11.04,
   "is_disable": false,
-  "cable_current": 32,
+  "cable_current_limit": 32,
   "circuit_fuse": 32,
   "current_limit": 16,
-  "is_always_lock": 0,
-  "plug_and_charging": 0,
-  "force_single": 0,
+  "cable_lock_mode": 0,
+  "access_level": 0,
+  "phase_charging": 0,
   "brightness": 80,
   "uk_reg": false
 }
